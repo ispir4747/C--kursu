@@ -158,21 +158,21 @@ namespace _05_loopswithStarts
 
             #region Ters piramit
 
-            //int n = 5;
+            int n = 5;
 
-            //for (int i = n; i >= 1; i--)
-            //{
-            //    for (int j = n; j > i; j--)
-            //    {
-            //        Console.Write(" ");
-            //    }
+            for (int i = n; i >= 1; i--)
+            {
+                for (int j = n; j > i; j--)
+                {
+                    Console.Write(" ");
+                }
 
-            //    for (int k = 0; k < 2 * i - 1; k++)
-            //    {
-            //        Console.Write("*");
-            //    }
-            //    Console.WriteLine();
-            //}
+                for (int k = 0; k < 2 * i - 1; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
 
             #endregion
 
